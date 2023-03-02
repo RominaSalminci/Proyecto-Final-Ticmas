@@ -1,0 +1,301 @@
+/* Colores
+#010101
+#F1C732
+#68ABB4
+wheat
+ color: #fff;
+ background-color: #222;
+
+Tipografías:
+Meatloaf
+AngryBirds
+Raleway */
+
+* {
+
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    display: flex;
+    
+}
+
+.perfil {
+    display:flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.foto-perfil{
+    border-radius: 50%;
+    width: 16vw;
+    height: auto;
+}
+.header-nav{
+    background-color: rgb(206, 220, 221);
+    display: flex;
+    width: 30%;
+    height: 100%;
+    flex-direction: column;
+}
+
+h3{
+    color: rgb(73, 73, 73);
+    font-weight: 20px;
+    display: flex;
+}
+    
+
+.descripcion{
+    font-family: cursive;
+    font-size:16px;
+    text-align: center;
+    padding: 20px;
+}
+
+.contacto{
+    font-family: cursive;
+    font-size:16px;
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.educacion{
+    font-family: cursive;
+    font-size:16px;
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.idioma{
+    font-family: cursive;
+    font-size:16px;
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.portada{
+    background-color: aliceblue;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 70vw;
+
+}
+.experiencia-laboral{
+    font-family: system-ui, system-ui, sans-serif;
+    font-size:16px;
+    text-align: left;
+    margin-left: 0px;
+    align-items: center;
+    padding:5%;
+   
+}
+.experiencia{
+    padding: 10px;
+}
+
+.tiitulo1{
+    font-family: system-ui, system-ui, sans-serif;
+    font-size: 10px;
+    
+}
+
+.titulo2{
+    font-family: system-ui, system-ui, sans-serif;
+    font-size: 14px;
+}
+
+.text-left{
+    font-size: 16px;
+    line-height: 25px;
+}
+.main{
+    background-color: aliceblue;
+    font-size: 25px;
+    padding-top: 30px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 70vw;
+    border-top: 0%;
+}
+
+.descr-empleos{
+    text-align: justify;
+    font-family: system-ui, system-ui, sans-serif;
+    font-size: 16x;
+    line-height: 20px;
+    
+
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    flex-direction: column;
+    padding: 20px;
+    align-items: flex-center;
+    margin:20px;
+
+  }
+
+.logo-con-descr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 120px;
+    padding-left: 120px;
+    justify-content: space-around;
+
+}
+
+.logo-con-descr-main{
+    display: flex;
+    align-items: center;  
+    padding-right: 600px;
+    justify-content: space-around;  
+}
+
+.fa-user-large, .fa-user-graduate, .fa-globe, .fa-briefcase{
+    transition: all 1500ms;
+    font-size: 25px;
+    
+}
+
+.fa-user-large:hover, .fa-user-graduate:hover, .fa-globe:hover, .fa-briefcase:hover {
+    transform: rotate(360deg);
+    color: blue;
+}
+
+@media(max-width: 480px){
+    .body{
+        width: 100%;
+        margin: 0%;
+        
+    }
+    
+    .main{
+        padding: 0%;
+        width: 100%;
+    }
+    .experiencia-laboral{
+        width: 100%;
+        text-align: left;
+        font-size: 12px;
+        padding: 2%;
+    }
+
+    h2{
+        font-size: 24px;
+        text-align: center;
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    h3{
+        font-size: 16px;
+        text-align: center;
+    }
+    .perfil{
+        display:flex;
+        justify-content: center;
+        padding-top: 45px;
+        padding-bottom: 0%;
+    }
+    .descripcion{
+        font-size: 10px;
+        padding: 10%;
+    }
+    .header-nav{
+        align-items: center;
+        text-align: justify;
+        width: 40%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0%;
+        
+    }
+    .fa-user-large, .fa-user-graduate, .fa-globe, .fa-briefcase{
+        font-size: 15px;
+        
+    }
+    .text-left{
+        font-size: 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0%;
+    
+
+    }
+    .logo-con-descr{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .contacto{
+        text-align: justify;
+        
+    }
+    .tiitulo1{
+        font-size: 12px;
+
+    }
+    .titulo2{
+        font-size: 10px;
+
+    }
+    .logo-con-descr-main{  
+        padding-right: 100px;
+        
+    }
+        
+    }
+
+@media(max-width: 768px){
+
+    .main{
+        width: 100%;
+           
+    }
+    .text-left{
+        font-size: 16px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0%;
+}
+    .logo-con-descr-main{  
+    padding-right: 200px;
+    
+}
+h2{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+h3{
+    font-size: 18px;
+    text-align: center;
+}
+}
+   
+/*Meatloaf
+AngryBirds
