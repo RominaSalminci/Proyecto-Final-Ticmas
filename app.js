@@ -16,4 +16,14 @@ app.get ("/",(req, res) => {
     res.sendFile(path.resolve(__dirname, "./views/home.html"))
 })
 
+app.get("/experiencia", (req, res) => {
+    res.sendFile(path.resolve(__dirname,"./views/experiencia.html"));
+})
 
+app.get("/contacto", (req, res) => {
+    res.sendFile(path.resolve(__dirname,"./views/contacto.html"));
+})
+
+app.get("/experiencia", (req, res) => {
+    res.sendFile(path.resolve(__dirname,"./views/home.html"));
+})
