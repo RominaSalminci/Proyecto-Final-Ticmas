@@ -1,15 +1,3 @@
-/* Colores
-#010101
-#F1C732
-#68ABB4
-wheat
- color: #fff;
- background-color: #222;
-
-Tipografías:
-Meatloaf
-AngryBirds
-Raleway */
 
 * {
 
@@ -34,7 +22,7 @@ body {
     height: auto;
 }
 .header-nav{
-    background-color: rgb(188, 203, 204);
+    background-color: wheat;
     width: 100%;
     height: auto;
     
@@ -82,7 +70,7 @@ h3{
 }
 
 .experiencia-laboral{
-    font-family: system-ui, system-ui, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size:16px;
     text-align: left;
     margin-left: 0px;
@@ -101,7 +89,7 @@ h3{
 }
 
 .titulo2{
-    font-family: system-ui, system-ui, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
 
@@ -111,7 +99,7 @@ h3{
     text-align: center;
 }
 .main{
-    background-color: whitesmoke;
+    background-color: white;
     padding: 5vw;
     justify-content: center;
     flex-direction: column;
@@ -122,7 +110,7 @@ h3{
 
 .descr-empleos{
     text-align: justify;
-    font-family: system-ui, system-ui, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16x;
     line-height: 20px;
 }
@@ -141,42 +129,37 @@ h3{
 }
 
 .fa-user-large, .fa-user-graduate, .fa-globe, .fa-briefcase{
-    transition: all 1500ms;
     font-size: 20px;
     margin-top: 1vw;
 
 }
 
-.fa-user-large:hover, .fa-user-graduate:hover, .fa-globe:hover, .fa-briefcase:hover {
-    transform: rotate(360deg);
-    color: blue;
-    
-}
 .iconos{
     display: flex;
     justify-content: space-around;
     width: 100vw;
-    background-color: rgb(188, 203, 204);
+    background-color: wheat;
 }
 .button{
-    background-color: rgb(188, 203, 204);
+    background-color: wheat;
     color: black;
     font-size: 16px;
     padding: 4px;
-    border-radius: 10px;
     margin-bottom: 4vw;
 }
 
 .main-botones{
     text-align: center;
+    display: flex;
+    justify-content: space-around;
 }
 .login-input{
     display: flex;
     flex-direction: column;
     border: 1px solid rgb(73, 73, 73);
     margin-bottom: 30px;
-    margin-left: 30%;
-    width: 40vw;
+    width: 30vw;
+    margin: 2%;
 }
 .style-form{
     background-color: aliceblue;
@@ -185,20 +168,23 @@ h3{
 .login{
     text-align: center;
     font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
 .formulario{
-    text-align: center;
+    text-align: left;
     font-size: 18px;
     padding: 3vw;
 }
 .button-contacto{
-    background-color: rgb(117, 182, 117);
+    background-color: green;
     color: black;
-    font-size: 16px;
+    font-size: 20px;
     padding: 4px;
-    border-radius: 10px;
     margin-bottom: 4vw;
     margin-top: 1vw;
+}
+.buton-volver{
+    font-size: 20px;
+    text-align: left;
 }
